@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.dv.com.customview.MainActivity"
+    android:background="#667245">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fillet_border"
+        />
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+
+            <test.dv.com.customview.FilletTriangleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:text="套"
+                app:text_size="10sp"
+                app:text_color="#ffffff"
+                app:radius="5dp"
+                app:bg_color="#00ff00"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
