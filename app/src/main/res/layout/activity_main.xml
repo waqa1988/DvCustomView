@@ -21,7 +21,7 @@
             <test.dv.com.customview.FilletTriangleView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:text="套"
+                app:text="新"
                 app:text_size="10sp"
                 app:text_color="#ffffff"
                 app:radius="5dp"
