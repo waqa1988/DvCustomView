@@ -7,4 +7,17 @@
         <attr name="text_color" format="color" />
         <attr name="bg_color" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="PanelView">
+        <attr name="panel_header_radius" format="dimension" />
+        <attr name="panel_header_margin_horizontal" format="dimension" />
+        <attr name="panel_header_height" format="dimension" />
+        <attr name="panel_border_width" format="dimension" />
+        <attr name="panel_show" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="panel_border_color" format="color" />
+        <attr name="panel_content_color" format="color" />
+    </declare-styleable>
 </resources>
